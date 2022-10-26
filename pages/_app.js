@@ -8,3 +8,7 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp;
+
+export function getServerSideProps() {
+  new FormData();
+}
